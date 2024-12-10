@@ -1,48 +1,65 @@
-# Astro Starter Kit: Basics
+# Astro Primer Acercamiento
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este proyecto es un primer acercamiento al framework Astro, diseñado para entender y practicar sus características y funcionalidades.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Estructura del Proyecto
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Dentro de este proyecto de Astro, encontrarás las siguientes carpetas y archivos:
 
 ```text
 /
 ├── public/
 │   └── favicon.svg
 ├── src/
+│   ├── components/
+│   │   ├── [AmazonLogo.astro](http://_vscodecontentref_/1)
+│   │   ├── [BookScore.astro](http://_vscodecontentref_/2)
+│   │   ├── [BuyButton.astro](http://_vscodecontentref_/3)
+│   │   └── Welcome.astro
+│   ├── content/
+│   │   ├── books/
+│   │   │   ├── aprendiendo-git.md
+│   │   │   ├── learning-typescript.md
+│   │   │   ├── programador-pragmatico.md
+│   │   │   └── refactoring.md
+│   │   └── config.ts
 │   ├── layouts/
-│   │   └── Layout.astro
+│   │   └── [Layout.astro](http://_vscodecontentref_/4)
 │   └── pages/
-│       └── index.astro
-└── package.json
+│       ├── [index.astro](http://_vscodecontentref_/5)
+│       └── libro/
+│           └── [[id].astro](http://_vscodecontentref_/6)
+├── .gitignore
+├── [astro.config.mjs](http://_vscodecontentref_/7)
+├── [package.json](http://_vscodecontentref_/8)
+├── [tailwind.config.mjs](http://_vscodecontentref_/9)
+└── [tsconfig.json](http://_vscodecontentref_/10)
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 📚 Contenido
 
-## 🧞 Commands
+Este proyecto incluye varios archivos de contenido en formato Markdown ubicados en `src/content/books/`. Cada archivo representa un libro con información relevante como título, autor, imagen, tiempo de lectura, descripción y enlaces de compra.
 
-All commands are run from the root of the project, from a terminal:
+## 🛠️ Configuración
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Tailwind CSS
 
-## 👀 Want to learn more?
+El proyecto utiliza Tailwind CSS para el diseño y estilos. La configuración de Tailwind se encuentra en `tailwind.config.mjs`.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Integraciones
+
+El proyecto está configurado para usar la integración de Tailwind con Astro, como se define en `astro.config.mjs`.
+
+### Variables de Entorno
+
+El archivo `astro.config.mjs` también define algunas variables de entorno que se utilizan en el proyecto, como `SHOW_BUY_BUTTON` y `SCORE_API_ENDPOINT`.
+
+## 👀 ¿Quieres aprender más?
+
+Siéntete libre de consultar [la documentación de Astro](https://docs.astro.build) o unirte al [servidor de Discord](https://astro.build/chat).
+
+Este
+
+README.md
+
+proporciona una visión general del proyecto, su estructura, comandos útiles y enlaces para aprender más sobre Astro.
