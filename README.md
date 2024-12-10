@@ -9,12 +9,16 @@ Dentro de este proyecto de Astro, encontrarás las siguientes carpetas y archivo
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├─── favicon.svg
+│   ├─ aprendiendo-git.jpg
+│   ├─ learning-typescript.jpg
+│   ├─ programadot-pragmatico.jpg
+│   └──refactoring.jpg
 ├── src/
 │   ├── components/
-│   │   ├── [AmazonLogo.astro](http://_vscodecontentref_/1)
-│   │   ├── [BookScore.astro](http://_vscodecontentref_/2)
-│   │   ├── [BuyButton.astro](http://_vscodecontentref_/3)
+│   │   ├── AmazonLogo.astro
+│   │   ├── BookScore.astro
+│   │   ├── BuyButton.astro
 │   │   └── Welcome.astro
 │   ├── content/
 │   │   ├── books/
@@ -24,16 +28,16 @@ Dentro de este proyecto de Astro, encontrarás las siguientes carpetas y archivo
 │   │   │   └── refactoring.md
 │   │   └── config.ts
 │   ├── layouts/
-│   │   └── [Layout.astro](http://_vscodecontentref_/4)
+│   │   └── Layout.astro
 │   └── pages/
-│       ├── [index.astro](http://_vscodecontentref_/5)
+│       ├── index.astro
 │       └── libro/
-│           └── [[id].astro](http://_vscodecontentref_/6)
-├── .gitignore
-├── [astro.config.mjs](http://_vscodecontentref_/7)
-├── [package.json](http://_vscodecontentref_/8)
-├── [tailwind.config.mjs](http://_vscodecontentref_/9)
-└── [tsconfig.json](http://_vscodecontentref_/10)
+│           └── [id].astro
+│
+├── astro.config.mjs
+├── package.json
+├── tailwind.config.mjs
+└── tsconfig.json
 ```
 
 ## 📚 Contenido
